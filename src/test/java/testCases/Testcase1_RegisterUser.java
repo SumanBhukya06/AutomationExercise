@@ -1,5 +1,6 @@
 package testCases;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.RegisterPage;
@@ -22,6 +23,7 @@ public class Testcase1_RegisterUser extends BaseClass {
         rp.setTxt_email(randomString()+"@gmail.com");
         rp.setBtn_clk_signup();
         rp.isAccountInfoExists();
+        scrollDown(500);
         rp.setChk_mr_radio();
         rp.setTxt_password(randomAlphanumeric());
         rp.setSelect_days();

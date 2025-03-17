@@ -4,10 +4,7 @@ package testBase;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.Platform;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -92,7 +89,7 @@ public class BaseClass {
         driver.get(p.getProperty("appURL"));
         //driver.get("https://automationexercise.com/");
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     @AfterClass(groups = {"Sanity", "Regression", "Master"})
@@ -117,6 +114,10 @@ public class BaseClass {
         String ran_alpha = RandomStringUtils.randomAlphanumeric(3);
         String ran_num = RandomStringUtils.randomNumeric(3);
         return (ran_alpha + "@" + ran_num);
+    }
+    public void scrollDown(int pixels) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0, " + pixels + ");");
     }
 
     public String captureScreen(String tname) throws IOException {

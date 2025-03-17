@@ -28,3 +28,6 @@
 17:45:25.807 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
 17:53:42.542 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
 17:53:58.736 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is ended..**
+21:35:03.284 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
+21:56:33.612 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
+21:56:48.368 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is ended..**
