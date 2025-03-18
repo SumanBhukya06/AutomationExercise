@@ -9,6 +9,8 @@
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="testCases.Testcase1_RegisterUser"/>
+            <class name="testCases.Testcase2_Login_Correct_credentials"/>
+            <class name="testCases.Testcase3_Loginwith_Incorrect_credentials"/>
         </classes>
     </test>
 </suite>
