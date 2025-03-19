@@ -1,13 +1,2 @@
-09:34:52.521 [main] INFO  testCases.Testcase2_Login_Correct_credentials - Login_Correct_credentials started
-09:34:59.945 [main] INFO  testCases.Testcase2_Login_Correct_credentials - Login_Correct_credentials ended
-09:35:52.777 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
-09:36:12.169 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is ended..**
-09:36:20.586 [main] INFO  testCases.Testcase2_Login_Correct_credentials - Login_Correct_credentials started
-09:37:11.830 [main] INFO  testCases.Testcase2_Login_Correct_credentials - Login_Correct_credentials started
-10:23:48.988 [main] INFO  testCases.Testcase3_Loginwith_Incorrect_credentials - Testcase3_Loginwith_Incorrect_credentials
-10:24:51.169 [main] INFO  testCases.Testcase3_Loginwith_Incorrect_credentials - Testcase3_Loginwith_Incorrect_credentials
-10:29:04.675 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
-10:29:18.941 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is ended..**
-10:29:26.718 [main] INFO  testCases.Testcase2_Login_Correct_credentials - Login_Correct_credentials started
-10:29:32.876 [main] INFO  testCases.Testcase2_Login_Correct_credentials - Login_Correct_credentials ended
-10:29:40.280 [main] INFO  testCases.Testcase3_Loginwith_Incorrect_credentials - Testcase3_Loginwith_Incorrect_credentials
+10:06:59.393 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
+10:07:00.198 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended

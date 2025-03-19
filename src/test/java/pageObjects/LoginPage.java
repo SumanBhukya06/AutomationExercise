@@ -21,6 +21,9 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//p[normalize-space()='Your email or password is incorrect!']")
     WebElement msz_email_pwd_incorrect;
 
+    @FindBy(xpath = "//h2[normalize-space()='Login to your account']")
+    WebElement msz_login_to_your_acc;
+
     //Action methods
     public void setTxt_login_email(String lemail){
         txt_login_email.sendKeys(lemail);
@@ -38,6 +41,15 @@ public class LoginPage extends BasePage {
         }
         catch (Exception e){
             return e.getMessage();
+        }
+    }
+    public String getLogintoaccmsz(){
+        try {
+            return msz_login_to_your_acc.getText();
+        }
+        catch (Exception e){
+            e.getMessage();
+            return null;
         }
     }
 

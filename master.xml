@@ -8,9 +8,13 @@
         <parameter name="os" value="windows"/>
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testCases.Testcase1_RegisterUser"/>
-            <class name="testCases.Testcase2_Login_Correct_credentials"/>
-            <class name="testCases.Testcase3_Loginwith_Incorrect_credentials"/>
+            <!--<class name="testCases.Testcase1_RegisterUser"/>
+             <class name="testCases.Testcase2_Login_Correct_credentials"/>-->
+            <!--<class name="testCases.Testcase3_Loginwith_Incorrect_credentials"/>-->
+            <!--class name="testCases.Testcase4_Logout"/>-->
+            <!--<class name="testCases.Testcase5_Login_with_Existed_user"/>-->
+            <!--<class name="testCases.Testcase6_contact_us"/>-->
+            <class name="testCases.Testcase7_testcase_page"/>
         </classes>
     </test>
 </suite>
