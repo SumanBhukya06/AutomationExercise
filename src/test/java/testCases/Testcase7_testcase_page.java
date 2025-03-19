@@ -22,6 +22,7 @@ public class Testcase7_testcase_page extends BaseClass {
         else {
             Assert.fail();
         }
+        tcp.setList_testcases();
         logger.info("Testcase7_testcase_page ended");
     }
 }

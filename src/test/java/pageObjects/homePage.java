@@ -29,6 +29,9 @@ public class homePage extends BasePage{
     @FindBy(xpath = "//a[contains(text(),'Test Cases')]")
     WebElement btn_Testcases;
 
+    @FindBy(xpath = "//a[@href='/products']")
+    WebElement btn_products;
+
 
     //Action methods
     public void setTxt_home(){
@@ -58,6 +61,9 @@ public class homePage extends BasePage{
     }
     public void setBtn_Testcases(){
         btn_Testcases.click();
+    }
+    public void setBtn_products(){
+        btn_products.click();
     }
 
 }

@@ -14,7 +14,8 @@
             <!--class name="testCases.Testcase4_Logout"/>-->
             <!--<class name="testCases.Testcase5_Login_with_Existed_user"/>-->
             <!--<class name="testCases.Testcase6_contact_us"/>-->
-            <class name="testCases.Testcase7_testcase_page"/>
+            <!--<class name="testCases.Testcase7_testcase_page"/>-->
+            <class name="testCases.Testcase8_All_products"/>
         </classes>
     </test>
 </suite>
