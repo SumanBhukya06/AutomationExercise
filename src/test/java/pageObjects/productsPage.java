@@ -1,14 +1,11 @@
 package pageObjects;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.JavascriptExecutor;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
-import javax.swing.*;
 import java.util.List;
 
 public class productsPage extends BasePage{
@@ -25,11 +22,7 @@ public class productsPage extends BasePage{
     @FindBy(xpath = "//body[1]/section[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]")
     WebElement btn_firstproduct;
 
-    /*@FindBy(xpath = "//div[@class='modal-content']")
-    WebElement modal_content;*/
-
     //Inside modal-content
-    //@FindBy(xpath = "//button[normalize-space()='Continue Shopping']")
     @FindBy(xpath = "//div[@class='modal-content']//div[3]")
     WebElement btn_continue_shopping;
 
@@ -41,7 +34,7 @@ public class productsPage extends BasePage{
     @FindBy(xpath = "//div[@class='modal-content']//div[2]//p//a")
     WebElement btn_view_cart;
 
-    @FindBy(xpath = "//tbody")
+    @FindBy(xpath = "//tbody//tr")
     List<WebElement>products_list;
 
     //Action methods
@@ -56,19 +49,7 @@ public class productsPage extends BasePage{
         Actions action=new Actions(driver);
         action.moveToElement(btn_firstproduct).click().build().perform();
     }
-    /*public void setmodal_content(){
-        WebElement modal=modal_content;
-        Assert.assertTrue(modal.isDisplayed());
-        //continue shopping
-        WebElement con_shopping=btn_continue_shopping;
-        try {
-            con_shopping.click();
-        }catch (Exception e){
-            JavascriptExecutor js = (JavascriptExecutor) driver;
-            js.executeScript("arguments[0].click();", con_shopping);
-        }
 
-    }*/
    public void setBtn_continue_shopping(){
        //Actions action=new Actions(driver);
         //action.moveToElement(btn_continue_shopping).click().build().perform();
@@ -83,16 +64,18 @@ public class productsPage extends BasePage{
         btn_view_cart.click();
     }
     public void setProducts_list(){
+        boolean foundBluetop=false;
+        boolean foundMenTshirt=false;
+
         for (WebElement pl:products_list){
             String p1=pl.getText();
-            if (p1.equalsIgnoreCase("Blue Top")){
-                Assert.assertTrue(true);
-            } else if (p1.equalsIgnoreCase("Men Tshirt")) {
-                Assert.assertTrue(true);
-            }
-            else {
-                Assert.fail();
+            if (p1.contains("Blue Top")){
+                foundBluetop=true;
+            } else if (p1.contains("Men Tshirt")) {
+                foundMenTshirt=true;
             }
         }
+        Assert.assertTrue(foundBluetop,"Blue Top not found");
+        Assert.assertTrue(foundMenTshirt,"Men Tshirt not found");
     }
 }

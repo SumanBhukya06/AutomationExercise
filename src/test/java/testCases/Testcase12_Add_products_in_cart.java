@@ -28,10 +28,8 @@ public class Testcase12_Add_products_in_cart extends BaseClass {
         Thread.sleep(3000);
         pp.setBtn_view_cart();
         Thread.sleep(3000);
-        //scrollUp(150);
-        //pp.setmodal_content();
-       // pp.setBtn_continue_shopping();
+        pp.setProducts_list();
+    }
+}
 
-    }
-    }
 
