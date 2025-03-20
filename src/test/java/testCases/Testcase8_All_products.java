@@ -23,7 +23,7 @@ public class Testcase8_All_products extends BaseClass {
         else {
             Assert.fail();
         }
-        scrollDown(320);
+        scrollDown(400);
         pp.setBtn_viewproduct();
         //productDetailsPage
         productDetailsPage pdp=new productDetailsPage(driver);

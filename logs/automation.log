@@ -1,17 +1,9 @@
-10:06:59.393 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
-10:07:00.198 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
-10:23:55.134 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
-10:23:57.124 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
-10:31:27.154 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
-10:31:28.343 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
-10:56:38.599 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
-10:56:39.729 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
-11:21:19.035 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
-11:21:20.194 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
-17:52:14.858 [main] INFO  testCases.Testcase8_All_products - The test case is started..
-17:53:20.335 [main] INFO  testCases.Testcase8_All_products - The test case is started..
-17:53:59.928 [main] INFO  testCases.Testcase8_All_products - The test case is started..
-17:57:38.859 [main] INFO  testCases.Testcase8_All_products - The test case is started..
-17:59:26.428 [main] INFO  testCases.Testcase8_All_products - The test case is started..
-18:00:17.946 [main] INFO  testCases.Testcase8_All_products - The test case is started..
-18:01:31.190 [main] INFO  testCases.Testcase8_All_products - The test case is started..
+08:28:01.215 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
+08:28:04.147 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
+08:28:12.116 [main] INFO  testCases.Testcase8_All_products - The test case is started..
+08:31:40.356 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
+08:31:44.231 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
+08:31:51.340 [main] INFO  testCases.Testcase8_All_products - The test case is started..
+08:53:13.522 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
+08:53:17.648 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
+08:53:24.492 [main] INFO  testCases.Testcase8_All_products - The test case is started..

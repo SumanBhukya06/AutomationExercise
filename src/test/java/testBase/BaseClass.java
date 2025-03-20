@@ -120,6 +120,10 @@ public class BaseClass {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0, " + pixels + ");");
     }
+    public void scrollToBottom() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+    }
     public void hoverOverElement(WebElement element) {
         Actions actions = new Actions(driver);
         actions.moveToElement(element).perform();

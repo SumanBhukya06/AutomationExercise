@@ -32,6 +32,21 @@ public class homePage extends BasePage{
     @FindBy(xpath = "//a[@href='/products']")
     WebElement btn_products;
 
+    @FindBy(xpath = "//input[@id='susbscribe_email']")
+    WebElement txt_subscribe_mail;
+
+    @FindBy(xpath = "//button[@id='subscribe']")
+    WebElement btn_send_mail;
+
+    @FindBy(xpath = "//div[@class='alert-success alert']")
+    WebElement txt_success_msz;
+
+    @FindBy(xpath = "//body[1]/header[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]")
+    WebElement btn_cart;
+
+    @FindBy(xpath = "//h2[normalize-space()='Subscription']")
+    WebElement verify_subcription;
+
 
     //Action methods
     public void setTxt_home(){
@@ -64,6 +79,21 @@ public class homePage extends BasePage{
     }
     public void setBtn_products(){
         btn_products.click();
+    }
+    public void setTxt_subscribe_mail(String semail){
+        txt_subscribe_mail.sendKeys(semail);
+    }
+    public void setBtn_send_mail(){
+        btn_send_mail.click();
+    }
+    public boolean getsuccessmsz(){
+        return txt_success_msz.isDisplayed();
+    }
+    public void setBtn_cart(){
+        btn_cart.click();
+    }
+    public boolean getSubcription(){
+        return verify_subcription.isDisplayed();
     }
 
 }
