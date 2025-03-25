@@ -19,8 +19,9 @@
             <class name="testCases.Testcase9_Search_Product"/>
             <class name="testCases.Testcase10_verify_subscription"/>-->
             <!--<class name="testCases.Testcase11_verify_subscription_cart"/>-->
-            <class name="testCases.Testcase12_Add_products_in_cart"/>
-
+           <!-- <class name="testCases.Testcase12_Add_products_in_cart"/>-->
+            <!--<class name="testCases.Testcase13_product_quantity_in_cart"/>-->
+            <class name="testCases.Testcase14_Place_order_Register_while_checkout"/>
         </classes>
     </test>
 </suite>

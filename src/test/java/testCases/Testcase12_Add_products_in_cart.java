@@ -21,14 +21,16 @@ public class Testcase12_Add_products_in_cart extends BaseClass {
         //products page
         productsPage pp = new productsPage(driver);
         pp.setBtn_firstproduct();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         pp.setBtn_continue_shopping();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         pp.setBtn_secondproduct();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         pp.setBtn_view_cart();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         pp.setProducts_list();
+        pp.setPriceTotal();
+        //Assert.assertTrue(pp.verify_total_price(),"");
     }
 }
 

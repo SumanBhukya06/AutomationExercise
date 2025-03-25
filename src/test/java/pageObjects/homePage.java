@@ -48,6 +48,7 @@ public class homePage extends BasePage{
     WebElement verify_subcription;
 
 
+
     //Action methods
     public void setTxt_home(){
         txt_home.isDisplayed();
