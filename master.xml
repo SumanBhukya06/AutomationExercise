@@ -24,7 +24,8 @@
             <!--<class name="testCases.Testcase14_Place_order_Register_while_checkout"/>-->
             <!--<class name="testCases.Testcase15_Remove_products_from_cart"/>-->
             <!--<class name="testCases.Testcase16_view_category_products"/>-->
-            <class name="testCases.Testcase17_view_cart_brands"/>
+           <!-- <class name="testCases.Testcase17_view_cart_brands"/>-->
+            <class name="testCases.Testcase18_Search_Products_and_Verify_Cart_After_Login"/>
         </classes>
     </test>
 </suite>

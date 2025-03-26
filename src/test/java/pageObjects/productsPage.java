@@ -63,6 +63,15 @@ public class productsPage extends BasePage{
     @FindBy(xpath = "//a[@href='/brand_products/H&M']")
     WebElement clk_brand_hm;
 
+    //search product input box
+    @FindBy(xpath = "//input[@id='search_product']")
+    WebElement input_search_box;
+
+    //search button
+    @FindBy(xpath = "//button[@id='submit_search']")
+    WebElement btn_search_product;
+
+
     //Action methods
     public boolean msz_all_products(){
         return msz_allproducts.isDisplayed();
@@ -166,5 +175,13 @@ public class productsPage extends BasePage{
 
     public void setClk_brand_hm(){
         clk_brand_hm.click();
+    }
+
+    public void setInput_search_box(String searchP){
+        input_search_box.sendKeys(searchP);
+    }
+
+    public void setBtn_search_product(){
+        btn_search_product.click();
     }
 }

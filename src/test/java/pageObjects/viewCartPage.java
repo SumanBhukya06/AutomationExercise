@@ -21,6 +21,9 @@ public class viewCartPage extends BasePage{
     @FindBy(xpath = "//p[contains(text(),'Click')]")
     WebElement getMessageCartEmpty;
 
+    @FindBy(xpath = "//a[normalize-space()='Premium Polo T-Shirts']")
+    WebElement item_text_same;
+
     public void setBtn_proceed_to_checkout(){
         btn_proceed_to_checkout.click();
     }
@@ -34,5 +37,8 @@ public class viewCartPage extends BasePage{
     }
     public boolean setMessagecartempty(){
         return getMessageCartEmpty.isDisplayed();
+    }
+    public boolean isItemTextSame(){
+        return item_text_same.isDisplayed();
     }
 }
