@@ -8,7 +8,7 @@ import pageObjects.homePage;
 import testBase.BaseClass;
 
 public class Testcase4_Logout extends BaseClass {
-    @Test
+    @Test(groups = {"Master","Sanity"})
     public void verify_logout(){
         logger.info("Testcase4_Logout started..");
         //Homepage

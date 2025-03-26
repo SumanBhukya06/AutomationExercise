@@ -22,7 +22,7 @@ public class Testcase18_Search_Products_and_Verify_Cart_After_Login extends Base
      */
 
     @Test
-    public void verify_search_products_and_verify_cart_after_login(){
+    public void verify_search_products_and_verify_cart_after_login() throws InterruptedException {
     //homepage
         homePage hp=new homePage(driver);
         hp.setBtn_products();
@@ -43,6 +43,7 @@ public class Testcase18_Search_Products_and_Verify_Cart_After_Login extends Base
         lp.setTxt_login_password(p.getProperty("password"));
         lp.setBtn_login();
         //homepage
+        Thread.sleep(2000);
         hp.setBtn_cart();
         viewCartPage vcp=new viewCartPage(driver);
         vcp.isItemTextSame();

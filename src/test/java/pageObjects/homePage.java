@@ -3,8 +3,11 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.time.Duration;
 import java.util.List;
 
 public class homePage extends BasePage{
@@ -68,6 +71,24 @@ public class homePage extends BasePage{
 
     @FindBy(xpath = "//div[@id='Men']//ul//li[2]//a") //div[@id='Men']//li[2]
     WebElement clkJeans;
+
+    @FindBy(xpath = "//h2[normalize-space()='recommended items']")
+    WebElement getRecommendedItems;
+
+    @FindBy(xpath = "//p[normalize-space()='Winter Top']")
+    WebElement winterTopText;
+
+    @FindBy(xpath = "//div[@id='recommended-item-carousel']//div[@class='item active']//div[1]//div[1]//div[1]//div[1]//a[1]")
+    WebElement winterTopAddToCart;
+
+    @FindBy(xpath = "//a[@id='scrollUp']")
+    WebElement scrollUp;
+
+    @FindBy(xpath = "//h2[normalize-space()='Subscription']")
+    WebElement text_subscription;
+
+    @FindBy(xpath = "//div[@class='item active']//h2[contains(text(),'Full-Fledged practice website for Automation Engin')]")
+    WebElement text_Automation_Engn;
 
     //Action methods
     public void setTxt_home(){
@@ -141,4 +162,31 @@ public class homePage extends BasePage{
         clkJeans.click();
     }
 
+    public boolean areRecommendedItemsVisible(){
+        return getRecommendedItems.isDisplayed();
+    }
+
+    public boolean isWinterTopVisible(){
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOf(winterTopText));
+        return winterTopText.isDisplayed();
+    }
+
+    public void clickWinterTop(){
+       /* WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.elementToBeClickable(winterTopAddToCart)).click();*/
+        winterTopAddToCart.click();
+    }
+    public void setScrollUp(){
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOf(scrollUp)).click();
+    }
+
+    public boolean getSubscription(){
+        return text_subscription.isDisplayed();
+    }
+
+    public boolean getTextAutomationEngn(){
+        return text_Automation_Engn.isDisplayed();
+    }
 }

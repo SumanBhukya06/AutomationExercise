@@ -7,7 +7,7 @@ import pageObjects.homePage;
 import testBase.BaseClass;
 
 public class Testcase3_Loginwith_Incorrect_credentials extends BaseClass {
-    @Test
+    @Test(groups={"Master","Regression"})
     public void verify_loginwith_incorrect_details(){
         logger.info("Testcase3_Loginwith_Incorrect_credentials");
         //Homepage

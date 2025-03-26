@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class Testcase1_RegisterUser extends BaseClass {
 
-    @Test(groups = "master")
+    @Test(groups = {"master","Regressipn","Sanity"})
     public void verify_register_user() throws InterruptedException {
         logger.info("**Testcase1_RegisterUser is started..**");
         //Homepage

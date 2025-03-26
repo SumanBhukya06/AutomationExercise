@@ -10,7 +10,7 @@ import testBase.BaseClass;
 public class Testcase6_contact_us extends BaseClass {
 
     //home page
-    @Test
+    @Test(groups = {"Master","Sanity"})
     public void verify_contact_us() {
         homePage hp = new homePage(driver);
         hp.setTxt_home();

@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class Testcase5_Login_with_Existed_user extends BaseClass {
 
-    @Test
+    @Test(groups = {"Master","Sanity"})
     public void verify_existed_user(){
         logger.info("Testcase5_Login_with_Existed_user");
 

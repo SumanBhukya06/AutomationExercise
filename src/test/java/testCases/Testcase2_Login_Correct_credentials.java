@@ -7,7 +7,7 @@ import pageObjects.homePage;
 import testBase.BaseClass;
 
 public class Testcase2_Login_Correct_credentials extends BaseClass {
-    @Test
+    @Test(groups = {"Master","Sanity"})
     public void verify_login_page(){
         logger.info("Login_Correct_credentials started");
         //homepage
