@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
+import java.util.List;
+
 public class homePage extends BasePage{
     //constructor invoke
     public homePage(WebDriver driver){
@@ -47,7 +49,25 @@ public class homePage extends BasePage{
     @FindBy(xpath = "//h2[normalize-space()='Subscription']")
     WebElement verify_subcription;
 
+    //categories
+    @FindBy(xpath = "//h2[normalize-space()='Category']")
+    WebElement categoryHeader;
+    //List of categories
+    @FindBy(xpath = "//div[@class='panel-group category-products']//div[@class='panel panel-default']")
+    List<WebElement> categories;
 
+    //women-dress
+    @FindBy(xpath = "//div[@id='Women']//a[contains(text(),'Dress')]")
+    WebElement clkDress;
+
+    @FindBy(xpath = "//a[normalize-space()='Women']")
+    WebElement btnwomenExpand;
+
+    @FindBy(xpath = "//a[normalize-space()='Men']")
+    WebElement btnMenExpand;
+
+    @FindBy(xpath = "//div[@id='Men']//ul//li[2]//a") //div[@id='Men']//li[2]
+    WebElement clkJeans;
 
     //Action methods
     public void setTxt_home(){
@@ -95,6 +115,30 @@ public class homePage extends BasePage{
     }
     public boolean getSubcription(){
         return verify_subcription.isDisplayed();
+    }
+
+    //categoryHeader
+    public boolean isCategoryHeadervisible(){
+        return categoryHeader.isDisplayed();
+    }
+
+    public boolean areCategoriesPresent(){
+        return categories.size()>0;
+    }
+
+    public void setBtnwomenExpand(){
+        btnwomenExpand.click();
+    }
+
+    public void setClkDress(){
+        clkDress.click();
+    }
+    public void setBtnMenExpand(){
+        btnMenExpand.click();
+    }
+
+    public void setClkJeans(){
+        clkJeans.click();
     }
 
 }

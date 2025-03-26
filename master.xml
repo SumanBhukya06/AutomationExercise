@@ -21,7 +21,10 @@
             <!--<class name="testCases.Testcase11_verify_subscription_cart"/>-->
            <!-- <class name="testCases.Testcase12_Add_products_in_cart"/>-->
             <!--<class name="testCases.Testcase13_product_quantity_in_cart"/>-->
-            <class name="testCases.Testcase14_Place_order_Register_while_checkout"/>
+            <!--<class name="testCases.Testcase14_Place_order_Register_while_checkout"/>-->
+            <!--<class name="testCases.Testcase15_Remove_products_from_cart"/>-->
+            <!--<class name="testCases.Testcase16_view_category_products"/>-->
+            <class name="testCases.Testcase17_view_cart_brands"/>
         </classes>
     </test>
 </suite>

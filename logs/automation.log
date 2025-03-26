@@ -1,11 +1,1 @@
-08:28:01.215 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
-08:28:04.147 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
-08:28:12.116 [main] INFO  testCases.Testcase8_All_products - The test case is started..
-08:31:40.356 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
-08:31:44.231 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
-08:31:51.340 [main] INFO  testCases.Testcase8_All_products - The test case is started..
-08:53:13.522 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
-08:53:17.648 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
-08:53:24.492 [main] INFO  testCases.Testcase8_All_products - The test case is started..
-14:40:12.722 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
-14:40:33.327 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is ended..**
+11:31:17.211 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**

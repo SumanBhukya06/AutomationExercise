@@ -52,6 +52,17 @@ public class productsPage extends BasePage{
     @FindBy(xpath = "//button[normalize-space()='Add to cart']")
     WebElement btn_addtocart;
 
+    //are brands visible
+    @FindBy(xpath = "//ul[@class='nav nav-pills nav-stacked']//li")
+    List<WebElement> areBrandsVisible;
+
+    @FindBy(xpath = "//ul[@class='nav nav-pills nav-stacked']//li[1]")
+    WebElement clkbrandname;
+
+    //click on any other brand i chosen h&m
+    @FindBy(xpath = "//a[@href='/brand_products/H&M']")
+    WebElement clk_brand_hm;
+
     //Action methods
     public boolean msz_all_products(){
         return msz_allproducts.isDisplayed();
@@ -145,4 +156,15 @@ public class productsPage extends BasePage{
         product_details_quantity.sendKeys("4");
     }
 
+    public boolean brandsVisible(){
+        return areBrandsVisible.size()>0;
+    }
+
+    public void setClkbrandname(){
+        clkbrandname.click();
+    }
+
+    public void setClk_brand_hm(){
+        clk_brand_hm.click();
+    }
 }
