@@ -1,40 +1,10 @@
-14:12:52.601 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
-14:13:06.197 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is ended..**
-14:19:49.998 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
-14:20:03.566 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is ended..**
-14:20:10.022 [main] INFO  testCases.Testcase2_Login_Correct_credentials - Login_Correct_credentials started
-14:20:15.789 [main] INFO  testCases.Testcase2_Login_Correct_credentials - Login_Correct_credentials ended
-14:20:21.176 [main] INFO  testCases.Testcase3_Loginwith_Incorrect_credentials - Testcase3_Loginwith_Incorrect_credentials
-14:20:27.033 [main] INFO  testCases.Testcase4_Logout - Testcase4_Logout started..
-14:24:17.377 [main] INFO  testCases.Testcase4_Logout - Testcase4_Logout started..
-14:24:24.137 [main] INFO  testCases.Testcase4_Logout - Testcase4_Logout ended
-14:33:44.274 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
-14:33:55.957 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is ended..**
-14:34:00.931 [main] INFO  testCases.Testcase3_Loginwith_Incorrect_credentials - Testcase3_Loginwith_Incorrect_credentials
-14:34:06.762 [main] INFO  testCases.Testcase4_Logout - Testcase4_Logout started..
-14:34:12.376 [main] INFO  testCases.Testcase4_Logout - Testcase4_Logout ended
-14:34:19.131 [main] INFO  testCases.Testcase5_Login_with_Existed_user - Testcase5_Login_with_Existed_user
-14:34:20.459 [main] INFO  testCases.Testcase5_Login_with_Existed_user - yes displayed
-14:34:34.294 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
-14:34:35.588 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
-14:34:40.236 [main] INFO  testCases.Testcase8_All_products - The test case is started..
-14:41:40.786 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
-14:41:52.051 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is ended..**
-14:42:03.701 [main] INFO  testCases.Testcase3_Loginwith_Incorrect_credentials - Testcase3_Loginwith_Incorrect_credentials
-14:42:09.504 [main] INFO  testCases.Testcase4_Logout - Testcase4_Logout started..
-14:42:16.459 [main] INFO  testCases.Testcase4_Logout - Testcase4_Logout ended
-14:42:20.975 [main] INFO  testCases.Testcase5_Login_with_Existed_user - Testcase5_Login_with_Existed_user
-14:42:21.937 [main] INFO  testCases.Testcase5_Login_with_Existed_user - yes displayed
-14:42:38.779 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
-14:42:39.544 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
-14:42:51.514 [main] INFO  testCases.Testcase8_All_products - The test case is started..
-22:05:37.614 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
-22:06:12.188 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is ended..**
-22:06:17.099 [main] INFO  testCases.Testcase3_Loginwith_Incorrect_credentials - Testcase3_Loginwith_Incorrect_credentials
-22:06:25.621 [main] INFO  testCases.Testcase4_Logout - Testcase4_Logout started..
-22:06:33.022 [main] INFO  testCases.Testcase4_Logout - Testcase4_Logout ended
-22:06:37.816 [main] INFO  testCases.Testcase5_Login_with_Existed_user - Testcase5_Login_with_Existed_user
-22:06:55.296 [main] INFO  testCases.Testcase5_Login_with_Existed_user - yes displayed
-22:07:10.256 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
-22:07:12.860 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
-22:07:17.639 [main] INFO  testCases.Testcase8_All_products - The test case is started..
+10:16:17.711 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is started..**
+10:16:31.650 [main] INFO  testCases.Testcase1_RegisterUser - **Testcase1_RegisterUser is ended..**
+10:16:37.670 [main] INFO  testCases.Testcase3_Loginwith_Incorrect_credentials - Testcase3_Loginwith_Incorrect_credentials
+10:16:45.322 [main] INFO  testCases.Testcase4_Logout - Testcase4_Logout started..
+10:16:51.873 [main] INFO  testCases.Testcase4_Logout - Testcase4_Logout ended
+10:16:58.853 [main] INFO  testCases.Testcase5_Login_with_Existed_user - Testcase5_Login_with_Existed_user
+10:17:00.188 [main] INFO  testCases.Testcase5_Login_with_Existed_user - yes displayed
+10:17:27.174 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page started...
+10:17:28.593 [main] INFO  testCases.Testcase7_testcase_page - Testcase7_testcase_page ended
+10:17:35.852 [main] INFO  testCases.Testcase8_All_products - The test case is started..

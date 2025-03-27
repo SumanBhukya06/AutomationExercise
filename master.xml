@@ -8,8 +8,8 @@
         <parameter name="os" value="windows"/>
         <parameter name="browser" value="chrome"/>
         <classes>
-           <!--<class name="testCases.Testcase1_RegisterUser"/>
-             <class name="testCases.Testcase2_Login_Correct_credentials"/>
+           <class name="testCases.Testcase1_RegisterUser"/>
+            <!-- <class name="testCases.Testcase2_Login_Correct_credentials"/>-->
             <class name="testCases.Testcase3_Loginwith_Incorrect_credentials"/>
             <class name="testCases.Testcase4_Logout"/>
             <class name="testCases.Testcase5_Login_with_Existed_user"/>
@@ -29,7 +29,7 @@
             <class name="testCases.Testcase19_Add_review_on_product"/>
             <class name="testCases.Testcase20_Add_to_cart_from_recommended_items"/>
             <class name="testCases.Testcase21_verify_address_details_in_checkout"/>
-            <class name="testCases.Testcase22_Download_Invoice_after_purchase_order"/>-->
+            <class name="testCases.Testcase22_Download_Invoice_after_purchase_order"/>
             <class name="testCases.Testcase23_verify_scrollUp_using_Arrow_button_and_scrollDown"/>
         </classes>
     </test>
